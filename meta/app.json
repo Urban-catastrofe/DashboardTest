@@ -28,6 +28,21 @@
     "Geluidssensor 1"
   ],
   "port": 8000,
+  "security": {
+    "autoGeneratePages": false,
+    "dataSource": "jmullink_Project4",
+    "duration": 5,
+    "emailConfirmation": false,
+    "layout": "Main",
+    "loginLayout": "Main",
+    "provider": "default",
+    "sessionRefresh": false,
+    "smtpFrom": "",
+    "smtpPassword": "",
+    "smtpSSL": false,
+    "smtpServer": "",
+    "smtpUser": ""
+  },
   "serverLang": "cs",
   "serverPort": 5000,
   "serverProject": true,

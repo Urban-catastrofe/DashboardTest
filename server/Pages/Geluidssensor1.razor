@@ -10,7 +10,7 @@
 <PageTitle>Geluidssensor 1</PageTitle>
 <RadzenContent Container="main">
   <ChildContent>
-    <RadzenHeading Size="H1" Text="Geluidssensor 1">
+    <RadzenHeading Size="H1" Text="Geluidssensor 2">
     </RadzenHeading>
     <div class="row">
       <div class="col-8">
@@ -18,7 +18,7 @@
           <ChildContent>
             <div class="row">
               <div class="col-12">
-                <RadzenDataGrid @ref="datagrid0" AllowColumnReorder="true" AllowColumnResize="true" AllowFiltering="true" AllowMultiColumnSorting="false" AllowPaging="true" AllowSorting="true" AllowVirtualization="true" Data="@getMicAlexesResult.Where(p => p.Timestamp >= DateTime.Now.AddDays(-3))" FilterDelay="501" IsLoading="false" TItem="DashboardTest.Models.JmullinkProject4.MicAlex" PageSize="10" style="height: 365px">
+                <RadzenDataGrid AllowColumnReorder="true" AllowColumnResize="true" AllowFiltering="true" AllowMultiColumnSorting="false" AllowPaging="true" AllowSorting="true" AllowVirtualization="true" Data="@getMicAlexesResult.Where(p => p.Timestamp >= DateTime.Now.AddDays(-1))" FilterDelay="501" IsLoading="false" TItem="DashboardTest.Models.JmullinkProject4.MicAlex" PageSize="10" style="height: 365px">
                   <Columns>
                     <RadzenDataGridColumn TItem="DashboardTest.Models.JmullinkProject4.MicAlex" Property="ID" Title="ID">
                     </RadzenDataGridColumn>
@@ -41,6 +41,7 @@
         <RadzenCard style="height: 415px; width: 381px">
           <ChildContent>
             <div class="col-md-12">
+                <RadzenMenu>
             <RadzenMenuItem Text="Tijdstip">
                 <RadzenMenuItem Click="@(() => OnCLicked(DateTime.Now.AddHours(-1)))" Text="Uurlijk"></RadzenMenuItem>
                 <RadzenMenuItem Click="@(() => OnCLicked(DateTime.Now.AddDays(-1)))" Text="Dagelijks"  ></RadzenMenuItem>
@@ -51,60 +52,61 @@
                 <RadzenMenuItem Click="@(() => OnCLicked(DateTime.Now.AddSeconds(-1)))" Text="seconden"></RadzenMenuItem>
                 <RadzenMenuItem Click="@(() => OnCLicked(DateTime.Now.AddMilliseconds(-100)))" Text="millieseconden"></RadzenMenuItem>
             </RadzenMenuItem>
+            </RadzenMenu>
             </div>
             <div class="col-md-12">
               <RadzenLabel style="font-style: normal" Text="Laagste decibel   :">
               </RadzenLabel>
-              <RadzenLabel style="float: right; margin-left: 100px; margin-right: 5px" Text="@waardeMin.ToString()">
+              <RadzenLabel style="float: right; margin-right: 5px" Text="@waardeMin.ToString()">
               </RadzenLabel>
             </div>
             <div class="col-md-12">
               <RadzenLabel Text="Hoogste decibel:">
               </RadzenLabel>
-              <RadzenLabel style="float: right; margin-left: 103px; margin-right: 5px" Text="@waardeMax.ToString()">
+              <RadzenLabel style="float: right;  margin-right: 5px" Text="@waardeMax.ToString()">
               </RadzenLabel>
             </div>
             <div class="col-md-12">
               <RadzenLabel Text="Gemiddelde decibel:">
               </RadzenLabel>
-              <RadzenLabel style="float: right; margin-left: 79px; margin-right: 5px" Text="@waardeAverage.ToString()">
+              <RadzenLabel style="float: right; margin-right: 5px" Text="@waardeAverage.ToString()">
               </RadzenLabel>
             </div>
             <div class="col-md-12">
               <RadzenLabel Text="Locatie:">
               </RadzenLabel>
-              <RadzenLabel style="float: right; margin-left: 80px; margin-right: 5px" Text="@locatie">
+              <RadzenLabel style="float: right; margin-right: 5px" Text="@locatie">
               </RadzenLabel>
             </div>
             <div class="col-md-12">
               <RadzenLabel Text="Aantal metingen:">
               </RadzenLabel>
-              <RadzenLabel style="float: right; margin-left: 20px; margin-right: 5px" Text="@aantalMetingen.ToString()">
+              <RadzenLabel style="float: right; margin-right: 5px" Text="@aantalMetingen.ToString()">
               </RadzenLabel>
             </div>
             <div class="col-md-12">
               <RadzenLabel Text="Laatste Meting:">
               </RadzenLabel>
-              <RadzenLabel style="float: right; margin-left: 20px; margin-right: 5px" Text="@laatsteResultaat.ToString()">
+              <RadzenLabel style="float: right; margin-right: 5px" Text="@laatsteResultaat.ToString()">
               </RadzenLabel>
             </div>
             <div class="col-md-12">
               <RadzenLabel Text="Eerste meting:">
               </RadzenLabel>
-              <RadzenLabel style="float: right; margin-left: 20px; margin-right: 5px" Text="@eersteResultaat.ToString()">
+              <RadzenLabel style="float: right; margin-right: 5px" Text="@eersteResultaat.ToString()">
               </RadzenLabel>
             </div>
             <div class="col-md-12">
               <RadzenLabel Text="Naam:">
               </RadzenLabel>
-              <RadzenLabel style="float: right; margin-left: 20px; margin-right: 5px" Text="@naam">
+              <RadzenLabel style="float: right; margin-right: 5px" Text="@naam">
               </RadzenLabel>
             </div>
           </ChildContent>
         </RadzenCard>
       </div>
     </div>
-    <RadzenProgressBar Max="140" ProgressBarStyle="ProgressBarStyle.Primary" style="float: none; height: 20px; margin-bottom: -140px; margin-top: 140px; width: 956px" Unit=" Decibel" Value="Sesnorwaarde1">
+    <RadzenProgressBar Max="140" ProgressBarStyle="ProgressBarStyle.Primary" style="float: none; height: 20px; margin-bottom: -140px; margin-top: 140px; width: 956px" Unit=" Decibel" Value="@Sesnorwaarde1">
     </RadzenProgressBar>
     <RadzenImage Path="assets/images/geluidsniveaus_bewerkt.jpg" style="width: 959px">
     </RadzenImage>
@@ -142,33 +144,27 @@
     public string naam = "Norod";
     public int eersteResultaat = 0;
     public int laatsteResultaat = 0;
-    public DateTime tijd = DateTime.Now.AddHours(-1);
+    public DateTime tijd = DateTime.Now.AddYears(-1);
+    private int Count { get; set; } = 1000;
 
     protected override void OnInitialized()
     {
+        StartCountdown();
+
         try
         {
             using (var context = new JmullinkProject4Context())
             {
                 Sesnorwaarde1 = context.MicAlexes.OrderByDescending(a => a.Timestamp).FirstOrDefault().Decibel;
                 Datas(tijd);
+
+
             }
         }
         catch
         {
             Console.WriteLine("AN CRITICAL EXCEPTION HAS OCCURED!!!!!!!!");
         }
-
-        var timer = new Timer(new TimerCallback(_ =>
-        {
-        // Note that the following line is necessary because otherwise
-        // Blazor would not recognize the state change and not refresh the UI
-        InvokeAsync(() =>
-            {
-
-                StateHasChanged();
-            });
-        }), null, 1000, 1000);
     }
 
     private void OnCLicked(DateTime tijdstip)
@@ -192,9 +188,30 @@
                 eersteResultaat = data.LastOrDefault().Decibel;
                 laatsteResultaat = data.FirstOrDefault().Decibel;
             }
-        }catch
+        }
+        catch
         {
             Console.Write("ERRRORRRRRRRRRRRR");
         }
+
+    }
+
+    public async Task StartCountdown()
+    {
+        var timer = new Timer(new TimerCallback(_ =>
+        {
+            if (Count > 0)
+            {
+                Count--;
+
+                // Note that the following line is necessary because otherwise
+                // Blazor would not recognize the state change and not refresh the UI
+                InvokeAsync(() =>
+                    {
+
+                        StateHasChanged();
+                    });
+            }
+        }), null, 1000, 1000);
     }
 }

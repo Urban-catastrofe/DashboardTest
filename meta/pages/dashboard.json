@@ -388,5 +388,8 @@
     ]
   },
   "layout": "Main",
-  "name": "Dashboard"
+  "name": "Dashboard",
+  "access": [
+    "Authenticated"
+  ]
 }
