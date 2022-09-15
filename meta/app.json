@@ -1,0 +1,39 @@
+{
+  "cssFiles": [],
+  "dataSources": [
+    "jmullink_Project4"
+  ],
+  "generator": "@radzen/blazor-server",
+  "https": false,
+  "ignore": [
+    ""
+  ],
+  "javaScriptFiles": [],
+  "layouts": [
+    "Main"
+  ],
+  "logo": "",
+  "name": "DashboardTEST",
+  "namespaces": [],
+  "navigation": [
+    "Dashboard",
+    "Geluidssensor 3",
+    "Geluidssensor 2",
+    "Geluidssensor 1"
+  ],
+  "pages": [
+    "Dashboard",
+    "Geluidssensor 3",
+    "Geluidssensor 2",
+    "Geluidssensor 1"
+  ],
+  "port": 8000,
+  "serverLang": "cs",
+  "serverPort": 5000,
+  "serverProject": true,
+  "serverVersion": "6",
+  "startPage": "Dashboard",
+  "theme": "dark",
+  "themeSettings": null,
+  "title": "DashboardTEST"
+}

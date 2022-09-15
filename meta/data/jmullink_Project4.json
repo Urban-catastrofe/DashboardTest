@@ -1,0 +1,305 @@
+{
+  "info": {
+    "title": "jmullink_Project4",
+    "x-type": "odata",
+    "x-connector": "mysql",
+    "x-concurrency": true
+  },
+  "definitions": {
+    "MicAlex": {
+      "x-table": "def.micAlex",
+      "resource": "MicAlexes",
+      "required": [
+        "ID",
+        "Naam",
+        "Locatie",
+        "Decibel"
+      ],
+      "properties": {
+        "ID": {
+          "x-nullable": false,
+          "type": "integer",
+          "x-key": true,
+          "x-virtual": true
+        },
+        "Timestamp": {
+          "x-default-sql": "current_timestamp()",
+          "x-nullable": false,
+          "type": "string",
+          "format": "date-time"
+        },
+        "Naam": {
+          "x-nullable": false,
+          "type": "string",
+          "length": 255
+        },
+        "Locatie": {
+          "x-nullable": false,
+          "type": "string",
+          "length": 255
+        },
+        "Decibel": {
+          "x-nullable": false,
+          "type": "integer"
+        }
+      },
+      "x-view": true
+    },
+    "MicJori": {
+      "x-table": "def.micJoris",
+      "resource": "MicJoris",
+      "required": [
+        "ID",
+        "Naam",
+        "Locatie",
+        "Decibel"
+      ],
+      "properties": {
+        "ID": {
+          "x-nullable": false,
+          "type": "integer",
+          "x-key": true,
+          "x-virtual": true
+        },
+        "Timerstamp": {
+          "x-default-sql": "current_timestamp()",
+          "x-nullable": false,
+          "type": "string",
+          "format": "date-time"
+        },
+        "Naam": {
+          "x-nullable": false,
+          "type": "string",
+          "length": 255
+        },
+        "Locatie": {
+          "x-nullable": false,
+          "type": "string",
+          "length": 255
+        },
+        "Decibel": {
+          "x-nullable": false,
+          "type": "integer"
+        }
+      },
+      "x-view": true
+    },
+    "MicKay": {
+      "x-table": "def.micKay",
+      "resource": "MicKays",
+      "required": [
+        "ID",
+        "Naam",
+        "Locatie",
+        "Decibel"
+      ],
+      "properties": {
+        "ID": {
+          "x-nullable": false,
+          "type": "integer",
+          "x-key": true,
+          "x-virtual": true
+        },
+        "Timestamp": {
+          "x-default-sql": "current_timestamp()",
+          "x-nullable": false,
+          "type": "string",
+          "format": "date-time"
+        },
+        "Naam": {
+          "x-nullable": false,
+          "type": "string",
+          "length": 255
+        },
+        "Locatie": {
+          "x-nullable": false,
+          "type": "string",
+          "length": 255
+        },
+        "Decibel": {
+          "x-nullable": false,
+          "type": "integer"
+        }
+      },
+      "x-view": true
+    }
+  },
+  "paths": {
+    "/MicAlexes": {
+      "get": {
+        "operationId": "getMicAlexes",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "$filter",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$orderby",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$expand",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$top",
+            "type": "integer"
+          },
+          {
+            "in": "query",
+            "name": "$skip",
+            "type": "integer"
+          },
+          {
+            "in": "query",
+            "name": "$format",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "properties": {
+                "value": {
+                  "items": {
+                    "$ref": "#/definitions/MicAlex"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object"
+            }
+          },
+          "default": {
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/MicJoris": {
+      "get": {
+        "operationId": "getMicJoris",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "$filter",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$orderby",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$expand",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$top",
+            "type": "integer"
+          },
+          {
+            "in": "query",
+            "name": "$skip",
+            "type": "integer"
+          },
+          {
+            "in": "query",
+            "name": "$format",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "properties": {
+                "value": {
+                  "items": {
+                    "$ref": "#/definitions/MicJori"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object"
+            }
+          },
+          "default": {
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/MicKays": {
+      "get": {
+        "operationId": "getMicKays",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "$filter",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$orderby",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$expand",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$top",
+            "type": "integer"
+          },
+          {
+            "in": "query",
+            "name": "$skip",
+            "type": "integer"
+          },
+          {
+            "in": "query",
+            "name": "$format",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "properties": {
+                "value": {
+                  "items": {
+                    "$ref": "#/definitions/MicKay"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object"
+            }
+          },
+          "default": {
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    }
+  },
+  "basePath": "/odata/JmullinkProject4",
+  "host": "localhost:5000",
+  "schemes": [
+    "http"
+  ]
+}

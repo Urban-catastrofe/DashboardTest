@@ -1,0 +1,123 @@
+﻿@page "/geluidssensor-3"
+@layout MainLayout
+@inherits DashboardTest.Pages.Geluidssensor3Component
+
+@using Radzen
+@using Radzen.Blazor
+@using DashboardTest.Models.JmullinkProject4
+<PageTitle>Geluidssensor 3</PageTitle>
+<RadzenContent Container="main">
+  <ChildContent>
+    <RadzenHeading Size="H1" Text="Geluidssensor 3">
+    </RadzenHeading>
+    <div class="row">
+      <div class="col-8">
+        <RadzenCard style="height: 418px">
+          <ChildContent>
+            <div class="row">
+              <div class="col-12">
+                <RadzenDataGrid @ref="datagrid0" AllowColumnReorder="true" AllowColumnResize="true" AllowFiltering="true" AllowMultiColumnSorting="false" AllowPaging="true" AllowSorting="true" AllowVirtualization="true" Data="@getMicKaysResult" FilterDelay="501" IsLoading="false" TItem="DashboardTest.Models.JmullinkProject4.MicKay" PageSize="10" style="height: 365px">
+                  <Columns>
+                    <RadzenDataGridColumn TItem="DashboardTest.Models.JmullinkProject4.MicKay" Property="ID" Title="ID">
+                    </RadzenDataGridColumn>
+                    <RadzenDataGridColumn TItem="DashboardTest.Models.JmullinkProject4.MicKay" FormatString="{0:d}" Property="Timestamp" Title="Timestamp">
+                    </RadzenDataGridColumn>
+                    <RadzenDataGridColumn TItem="DashboardTest.Models.JmullinkProject4.MicKay" Property="Naam" Title="Naam">
+                    </RadzenDataGridColumn>
+                    <RadzenDataGridColumn TItem="DashboardTest.Models.JmullinkProject4.MicKay" Property="Locatie" Title="Locatie">
+                    </RadzenDataGridColumn>
+                    <RadzenDataGridColumn TItem="DashboardTest.Models.JmullinkProject4.MicKay" Property="Decibel" Title="Decibel">
+                    </RadzenDataGridColumn>
+                  </Columns>
+                </RadzenDataGrid>
+              </div>
+            </div>
+          </ChildContent>
+        </RadzenCard>
+      </div>
+      <div class="col-4">
+        <RadzenCard style="height: 415px; width: 381px">
+          <ChildContent>
+            <div class="col-md-12">
+              <RadzenDropDown Name="Dropdown0" TValue="dynamic">
+              </RadzenDropDown>
+            </div>
+            <div class="col-md-12">
+              <RadzenLabel style="font-style: normal" Text="Laagste decibel   :">
+              </RadzenLabel>
+              <RadzenLabel style="float: right; margin-left: 100px; margin-right: 5px" Text="Value1">
+              </RadzenLabel>
+            </div>
+            <div class="col-md-12">
+              <RadzenLabel Text="Hoogste decibel:">
+              </RadzenLabel>
+              <RadzenLabel style="float: right; margin-left: 103px; margin-right: 5px" Text="Value1">
+              </RadzenLabel>
+            </div>
+            <div class="col-md-12">
+              <RadzenLabel Text="Gemiddelde decibel:">
+              </RadzenLabel>
+              <RadzenLabel style="float: right; margin-left: 79px; margin-right: 5px" Text="Value1">
+              </RadzenLabel>
+            </div>
+            <div class="col-md-12">
+              <RadzenLabel Text="Locatie:">
+              </RadzenLabel>
+              <RadzenLabel style="float: right; margin-left: 80px; margin-right: 5px" Text="Value1">
+              </RadzenLabel>
+            </div>
+            <div class="col-md-12">
+              <RadzenLabel Text="Aantal metingen:">
+              </RadzenLabel>
+              <RadzenLabel style="float: right; margin-left: 20px; margin-right: 5px" Text="Value1">
+              </RadzenLabel>
+            </div>
+            <div class="col-md-12">
+              <RadzenLabel Text="Laatste Meting:">
+              </RadzenLabel>
+              <RadzenLabel style="float: right; margin-left: 20px; margin-right: 5px" Text="Value1">
+              </RadzenLabel>
+            </div>
+            <div class="col-md-12">
+              <RadzenLabel Text="Eerste meting:">
+              </RadzenLabel>
+              <RadzenLabel style="float: right; margin-left: 20px; margin-right: 5px" Text="Value1">
+              </RadzenLabel>
+            </div>
+            <div class="col-md-12">
+              <RadzenLabel Text="Naam:">
+              </RadzenLabel>
+              <RadzenLabel style="float: right; margin-left: 20px; margin-right: 5px" Text="Value1">
+              </RadzenLabel>
+            </div>
+          </ChildContent>
+        </RadzenCard>
+      </div>
+    </div>
+    <RadzenProgressBar Max="140" ProgressBarStyle="ProgressBarStyle.Primary" style="float: none; height: 20px; margin-bottom: -140px; margin-top: 140px; width: 956px" Unit=" Decibel" Value="1">
+    </RadzenProgressBar>
+    <RadzenImage Path="assets/images/geluidsniveaus_bewerkt.jpg" style="width: 959px">
+    </RadzenImage>
+    <RadzenRadialGauge>
+      <ChildContent>
+        <RadzenRadialGaugeScale Max="140" Min="0">
+          <ChildContent>
+            <RadzenRadialGaugeScalePointer Value="25">
+              <Template Context="data">
+              Decibel
+              </Template>
+            </RadzenRadialGaugeScalePointer>
+            <RadzenRadialGaugeScaleRange Fill="#5dbf74" From="0" To="30">
+            </RadzenRadialGaugeScaleRange>
+            <RadzenRadialGaugeScaleRange Fill="#e6c54f" From="30" To="80">
+            </RadzenRadialGaugeScaleRange>
+            <RadzenRadialGaugeScaleRange Fill="#f9777f" From="80" To="120">
+            </RadzenRadialGaugeScaleRange>
+            <RadzenRadialGaugeScaleRange Fill="#ff6d41" From="120" To="140">
+            </RadzenRadialGaugeScaleRange>
+          </ChildContent>
+        </RadzenRadialGaugeScale>
+      </ChildContent>
+    </RadzenRadialGauge>
+  </ChildContent>
+</RadzenContent>
