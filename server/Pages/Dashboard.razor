@@ -13,6 +13,7 @@
   <ChildContent>
     <RadzenHeading Size="H1" Text="Dashboard">
     </RadzenHeading>
+    <RadzenHeading Text="@DateTime.Now.ToString()"></RadzenHeading>
     <RadzenPager>
     </RadzenPager>
     <div class="row justify-content-center align-items-center" style="text-align: center; width: undefinedpx">
@@ -153,6 +154,8 @@
                             {
 
                                 StateHasChanged();
+                                Reload();
+                                OnInitialized();
                             });
             }
         }), null, 1000, 1000);

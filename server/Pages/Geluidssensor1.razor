@@ -174,11 +174,12 @@
 
     public void Datas(DateTime waarden)
     {
+        tijd = waarden;
         try
         {
             using (var context = new JmullinkProject4Context())
             {
-                var data = context.MicAlexes.OrderByDescending(a => a.Timestamp).Where(p => p.Timestamp >= waarden);
+                var data = context.MicAlexes.OrderByDescending(a => a.Timestamp).Where(p => p.Timestamp >= tijd);
                 waardeMax = data.Max(a => a.Decibel);
                 waardeMin = data.Min(a => a.Decibel);
                 waardeAverage = data.Average(a => a.Decibel);
@@ -210,6 +211,8 @@
                     {
 
                         StateHasChanged();
+                        Reload();
+                        Datas(tijd);
                     });
             }
         }), null, 1000, 1000);
