@@ -200,22 +200,13 @@
 
     public async Task StartCountdown()
     {
-        var timer = new Timer(new TimerCallback(_ =>
+        var timer = new System.Threading.Timer((_) =>
         {
-            if (Count > 0)
-            {
-                Count--;
-
-                // Note that the following line is necessary because otherwise
-                // Blazor would not recognize the state change and not refresh the UI
-                InvokeAsync(() =>
-                    {
-
-                        StateHasChanged();
-                        Reload();
-                        Datas(tijd);
-                    });
-            }
-        }), null, 1000, 1000);
+            InvokeAsync(async () =>
+      {
+      this.StateHasChanged();
+      this.Reload();
+           });
+        }, null, 0, 1000);
     }
 }
