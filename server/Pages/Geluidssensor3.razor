@@ -158,8 +158,6 @@
             {
                 Sesnorwaarde1 = context.MicKays.OrderByDescending(a => a.Timestamp).FirstOrDefault().Decibel;
                 Datas(tijd);
-
-
             }
         }
         catch
@@ -180,6 +178,7 @@
         {
             using (var context = new JmullinkProject4Context())
             {
+                Sesnorwaarde1 = context.MicKays.OrderByDescending(a => a.Timestamp).FirstOrDefault().Decibel;
                 var data = context.MicKays.OrderByDescending(a => a.Timestamp).Where(p => p.Timestamp >= waarden);
                 waardeMax = data.Max(a => a.Decibel);
                 waardeMin = data.Min(a => a.Decibel);
@@ -204,9 +203,10 @@
         {
             InvokeAsync(async () =>
       {
-      this.StateHasChanged();
-      this.Reload();
-           });
-        }, null, 0, 1000);
+          this.StateHasChanged();
+          this.Reload();
+          this.Datas(tijd);
+      });
+        }, null, 1000, 1000);
     }
 }
