@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oAKnCn7F+DsZlGHNCXLA52bl/Qfg4b2UE90LQYNsfso=",
+  "Hash": "snDRHpyO85oU0i1pBDtDLde5l9EsnZqYyKR0UqJhnAs=",
   "Source": "DashboardTest",
   "BasePath": "_content/DashboardTest",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "DashboardTest\\wwwroot",
       "Source": "DashboardTest",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "Pattern": "**"
     }
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "C:\\Users\\Simme Buiting\\.nuget\\packages\\radzen.blazor\\3.20.12\\staticwebassets\\Radzen.Blazor.js"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\css\\dark.css",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\css\\dark.css",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/css/dark.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\dark.css"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\css\\humanistic.css",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\css\\humanistic.css",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/css/humanistic.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\humanistic.css"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\css\\styles.css",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\css\\styles.css",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/css/styles.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\css\\styles-generated.css",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\css\\styles-generated.css",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/css/styles-generated.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\styles-generated.css"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/MaterialIcons-Regular.woff",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\MaterialIcons-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\roboto-regular.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\roboto-regular.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/roboto-regular.woff",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\roboto-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\roboto-v15-latin-300.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\roboto-v15-latin-300.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/roboto-v15-latin-300.woff",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\roboto-v15-latin-300.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\roboto-v15-latin-700.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\roboto-v15-latin-700.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/roboto-v15-latin-700.woff",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\roboto-v15-latin-700.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\roboto-v15-latin-regular.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\roboto-v15-latin-regular.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/roboto-v15-latin-regular.woff",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\roboto-v15-latin-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\SourceSansPro-Black.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\SourceSansPro-Black.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/SourceSansPro-Black.woff",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\SourceSansPro-Black.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\SourceSansPro-BlackIt.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\SourceSansPro-BlackIt.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/SourceSansPro-BlackIt.woff",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\SourceSansPro-BlackIt.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\SourceSansPro-Bold.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\SourceSansPro-Bold.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/SourceSansPro-Bold.woff",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\SourceSansPro-Bold.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\SourceSansPro-BoldIt.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\SourceSansPro-BoldIt.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/SourceSansPro-BoldIt.woff",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\SourceSansPro-BoldIt.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\SourceSansPro-ExtraLight.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\SourceSansPro-ExtraLight.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/SourceSansPro-ExtraLight.woff",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\SourceSansPro-ExtraLight.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\SourceSansPro-ExtraLightIt.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\SourceSansPro-ExtraLightIt.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/SourceSansPro-ExtraLightIt.woff",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\SourceSansPro-ExtraLightIt.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\SourceSansPro-It.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\SourceSansPro-It.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/SourceSansPro-It.woff",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\SourceSansPro-It.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\SourceSansPro-Light.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\SourceSansPro-Light.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/SourceSansPro-Light.woff",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\SourceSansPro-Light.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\SourceSansPro-LightIt.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\SourceSansPro-LightIt.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/SourceSansPro-LightIt.woff",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\SourceSansPro-LightIt.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\SourceSansPro-Regular.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\SourceSansPro-Regular.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/SourceSansPro-Regular.woff",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\SourceSansPro-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\SourceSansPro-Semibold.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\SourceSansPro-Semibold.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/SourceSansPro-Semibold.woff",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\SourceSansPro-Semibold.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\fonts\\SourceSansPro-SemiboldIt.woff",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\fonts\\SourceSansPro-SemiboldIt.woff",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/fonts/SourceSansPro-SemiboldIt.woff",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\SourceSansPro-SemiboldIt.woff"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\images\\gehoorschade.png",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\images\\gehoorschade.png",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/images/gehoorschade.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\gehoorschade.png"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\images\\geluidsniveaus_bewerkt.jpg",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\images\\geluidsniveaus_bewerkt.jpg",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/images/geluidsniveaus_bewerkt.jpg",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\geluidsniveaus_bewerkt.jpg"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\assets\\images\\hbm-140-94.jpg-1200x600-93541ebc88.jpg",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\assets\\images\\hbm-140-94.jpg-1200x600-93541ebc88.jpg",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "assets/images/hbm-140-94.jpg-1200x600-93541ebc88.jpg",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\hbm-140-94.jpg-1200x600-93541ebc88.jpg"
     },
     {
-      "Identity": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\favicon.ico",
       "SourceId": "DashboardTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simme Buiting\\OneDrive - Graafschap College\\Leerjaar 4\\Periode 1\\Mappenstructuur\\Simme Buiting - dossier cohort 2019\\B1-K2\\DashboardTEST\\server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\wwwroot\\",
       "BasePath": "_content/DashboardTest",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

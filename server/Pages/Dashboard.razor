@@ -112,21 +112,6 @@
     protected override void OnInitialized()
     {
         StartCountdown();
-        try
-        {
-            using (var context = new JmullinkProject4Context())
-            {
-                var query = context.MicJoris.OrderByDescending(a => a.Timerstamp).ToList();
-
-                Sesnorwaarde2 = context.MicJoris.OrderByDescending(a => a.Timerstamp).FirstOrDefault().Decibel;
-                Sesnorwaarde1 = context.MicAlexes.OrderByDescending(a => a.Timestamp).FirstOrDefault().Decibel;
-                Sesnorwaarde3 = context.MicKays.OrderByDescending(a => a.Timestamp).FirstOrDefault().Decibel;
-            }
-        }
-        catch
-        {
-            Console.WriteLine("AN CRITICAL EXCEPTION HAS OCCURED!!!!!!!!");
-        }
 
         var timer = new Timer(new TimerCallback(_ =>
         {
@@ -144,12 +129,26 @@
     {
         var timer = new System.Threading.Timer((_) =>
         {
+            try
+            {
+                using (var context = new JmullinkProject4Context())
+                {
+                    var query = context.MicJoris.OrderByDescending(a => a.Timerstamp).ToList();
+
+                    Sesnorwaarde2 = context.MicJoris.OrderByDescending(a => a.Timerstamp).FirstOrDefault().Decibel;
+                    Sesnorwaarde1 = context.MicAlexes.OrderByDescending(a => a.Timestamp).FirstOrDefault().Decibel;
+                    Sesnorwaarde3 = context.MicKays.OrderByDescending(a => a.Timestamp).FirstOrDefault().Decibel;
+                }
+            }
+            catch
+            {
+                Console.WriteLine("AN CRITICAL EXCEPTION HAS OCCURED!!!!!!!!");
+            }
             InvokeAsync(async () =>
       {
-      this.StateHasChanged();
-      this.Reload();
-           });
-        }, null, 1000, 1000);
+          this.StateHasChanged();
+      });
+        }, null, 3000, 3000);
     }
 
 

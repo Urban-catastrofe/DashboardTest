@@ -168,12 +168,12 @@
 
     private void OnCLicked(DateTime tijdstip)
     {
+        tijd = tijdstip;
         Datas(tijdstip);
     }
 
-    public void Datas(DateTime waarden)
+    public async Task Datas(DateTime waarden)
     {
-        tijd = waarden;
         try
         {
             using (var context = new JmullinkProject4Context())
@@ -204,9 +204,8 @@
             InvokeAsync(async () =>
       {
           this.StateHasChanged();
-          this.Reload();
           this.Datas(tijd);
       });
-        }, null, 1000, 1000);
+        }, null, 3000, 3000);
     }
 }
