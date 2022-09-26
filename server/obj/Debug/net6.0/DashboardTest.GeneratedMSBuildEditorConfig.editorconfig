@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DashboardTest
 build_property.RootNamespace = DashboardTest
-build_property.ProjectDir = C:\Users\Simme Buiting\Source\Repos\DashboardTest\server\
+build_property.ProjectDir = C:\Users\Simme Buiting\source\repos\DashboardTest\server\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Simme Buiting\Source\Repos\DashboardTest\server
+build_property.MSBuildProjectDirectory = C:\Users\Simme Buiting\source\repos\DashboardTest\server
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Simme Buiting/Source/Repos/DashboardTest/server/App.razor]
+[C:/Users/Simme Buiting/source/repos/DashboardTest/server/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simme Buiting/Source/Repos/DashboardTest/server/Pages/Dashboard.razor]
+[C:/Users/Simme Buiting/source/repos/DashboardTest/server/Pages/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simme Buiting/Source/Repos/DashboardTest/server/Pages/Geluidssensor1.razor]
+[C:/Users/Simme Buiting/source/repos/DashboardTest/server/Pages/Geluidssensor1.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VsdWlkc3NlbnNvcjEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simme Buiting/Source/Repos/DashboardTest/server/Pages/Geluidssensor2.razor]
+[C:/Users/Simme Buiting/source/repos/DashboardTest/server/Pages/Geluidssensor2.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VsdWlkc3NlbnNvcjIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simme Buiting/Source/Repos/DashboardTest/server/Pages/Geluidssensor3.razor]
+[C:/Users/Simme Buiting/source/repos/DashboardTest/server/Pages/Geluidssensor3.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VsdWlkc3NlbnNvcjMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simme Buiting/Source/Repos/DashboardTest/server/Pages/_Imports.razor]
+[C:/Users/Simme Buiting/source/repos/DashboardTest/server/Pages/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simme Buiting/Source/Repos/DashboardTest/server/Shared/LoginLayout.razor]
+[C:/Users/Simme Buiting/source/repos/DashboardTest/server/Shared/LoginLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simme Buiting/Source/Repos/DashboardTest/server/Shared/MainLayout.razor]
+[C:/Users/Simme Buiting/source/repos/DashboardTest/server/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simme Buiting/Source/Repos/DashboardTest/server/_Imports.razor]
+[C:/Users/Simme Buiting/source/repos/DashboardTest/server/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simme Buiting/Source/Repos/DashboardTest/server/Pages/_Host.cshtml]
+[C:/Users/Simme Buiting/source/repos/DashboardTest/server/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

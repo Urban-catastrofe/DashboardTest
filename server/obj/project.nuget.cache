@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QdCRZiMVW1Flzeq9DCjKsNjnVhJdaD9anthMQQcjb/1tAA2pAx6B3c04OKfz3MP91WK9iqJvQW3qUAw06ON74Q==",
+  "dgSpecHash": "7gbPKQy7fAfrL7XxScTJ5XaMkfnhxpVV8ZmDJqFEc61bN00dduK2zoGjQ7myGZlZSfcg5sIbC4ryxJMpXwaI3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\DashboardTest.csproj",
+  "projectFilePath": "C:\\Users\\Simme Buiting\\source\\repos\\DashboardTest\\server\\DashboardTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simme Buiting\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Simme Buiting\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

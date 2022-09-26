@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\DashboardTest.csproj": {}
+    "C:\\Users\\Simme Buiting\\source\\repos\\DashboardTest\\server\\DashboardTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\DashboardTest.csproj": {
+    "C:\\Users\\Simme Buiting\\source\\repos\\DashboardTest\\server\\DashboardTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\DashboardTest.csproj",
+        "projectUniqueName": "C:\\Users\\Simme Buiting\\source\\repos\\DashboardTest\\server\\DashboardTest.csproj",
         "projectName": "DashboardTest",
-        "projectPath": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\DashboardTest.csproj",
+        "projectPath": "C:\\Users\\Simme Buiting\\source\\repos\\DashboardTest\\server\\DashboardTest.csproj",
         "packagesPath": "C:\\Users\\Simme Buiting\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simme Buiting\\Source\\Repos\\DashboardTest\\server\\obj\\",
+        "outputPath": "C:\\Users\\Simme Buiting\\source\\repos\\DashboardTest\\server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

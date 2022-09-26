@@ -28,7 +28,7 @@
                     </RadzenImage>
                   </div>
                   <div class="col-sm-8">
-                    <RadzenHeading Size="H3" style="text-align: right" Text="Geluidssensor1">
+                    <RadzenHeading Size="H3" style="text-align: right" Text="Geluidssensor 1">
                     </RadzenHeading>
                     <RadzenHeading Size="H6" style="margin-bottom: 0px; margin-top: ; text-align: right" Text="Huidelijk">
                     </RadzenHeading>
@@ -52,7 +52,7 @@
                     </RadzenImage>
                   </div>
                   <div class="col-sm-8">
-                    <RadzenHeading Size="H3" style="text-align: right" Text="Geluidssensor1">
+                    <RadzenHeading Size="H3" style="text-align: right" Text="Geluidssensor 2">
                     </RadzenHeading>
                     <RadzenHeading Size="H6" style="margin-bottom: 0px; text-align: right" Text="Huidelijk">
                     </RadzenHeading>
@@ -76,7 +76,7 @@
                     </RadzenImage>
                   </div>
                   <div class="col-sm-8">
-                    <RadzenHeading Size="H3" style="text-align: right" Text="Geluidssensor1">
+                    <RadzenHeading Size="H3" style="text-align: right" Text="Geluidssensor 3">
                     </RadzenHeading>
                     <RadzenHeading Size="H6" style="margin-bottom: 0px; text-align: right" Text="Huidelijk">
                     </RadzenHeading>
@@ -112,6 +112,21 @@
     protected override void OnInitialized()
     {
         StartCountdown();
+        try
+        {
+            using (var context = new JmullinkProject4Context())
+            {
+                var query = context.MicJoris.OrderByDescending(a => a.Timerstamp).ToList();
+
+                Sesnorwaarde2 = context.MicJoris.OrderByDescending(a => a.Timerstamp).FirstOrDefault().Decibel;
+                Sesnorwaarde1 = context.MicAlexes.OrderByDescending(a => a.Timestamp).FirstOrDefault().Decibel;
+                Sesnorwaarde3 = context.MicKays.OrderByDescending(a => a.Timestamp).FirstOrDefault().Decibel;
+            }
+        }
+        catch
+        {
+            Console.WriteLine("AN CRITICAL EXCEPTION HAS OCCURED!!!!!!!!");
+        }
 
         var timer = new Timer(new TimerCallback(_ =>
         {
@@ -129,26 +144,12 @@
     {
         var timer = new System.Threading.Timer((_) =>
         {
-            try
-            {
-                using (var context = new JmullinkProject4Context())
-                {
-                    var query = context.MicJoris.OrderByDescending(a => a.Timerstamp).ToList();
-
-                    Sesnorwaarde2 = context.MicJoris.OrderByDescending(a => a.Timerstamp).FirstOrDefault().Decibel;
-                    Sesnorwaarde1 = context.MicAlexes.OrderByDescending(a => a.Timestamp).FirstOrDefault().Decibel;
-                    Sesnorwaarde3 = context.MicKays.OrderByDescending(a => a.Timestamp).FirstOrDefault().Decibel;
-                }
-            }
-            catch
-            {
-                Console.WriteLine("AN CRITICAL EXCEPTION HAS OCCURED!!!!!!!!");
-            }
             InvokeAsync(async () =>
       {
-          this.StateHasChanged();
-      });
-        }, null, 3000, 3000);
+      this.StateHasChanged();
+      this.Reload();
+           });
+        }, null, 1000, 1000);
     }
 
 
